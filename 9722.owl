@@ -1,0 +1,378 @@
+<?xml version="1.0"?>
+
+
+<!DOCTYPE Ontology [
+    <!ENTITY xsd "http://www.w3.org/2001/XMLSchema#" >
+    <!ENTITY xml "http://www.w3.org/XML/1998/namespace" >
+    <!ENTITY rdfs "http://www.w3.org/2000/01/rdf-schema#" >
+    <!ENTITY rdf "http://www.w3.org/1999/02/22-rdf-syntax-ns#" >
+]>
+
+
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/win8.1/ontologies/2017/3/untitled-ontology-9"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     ontologyIRI="http://www.semanticweb.org/win8.1/ontologies/2017/3/untitled-ontology-9">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#AiLive"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Android"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#App_Game_Kit"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artificial_Intelligence_Implant"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Artificial_Intelligence_In_Game_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audaspace"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Audio_In_Game_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Autodesk_Gameware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Big_World"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#BlitzTech"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Bullet"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Business_Progress"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Components"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Concept"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Cry_Engine_3"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Detour"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Display_Lists"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Distinguish_Usefulness"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Economy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Euphoria"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Frame_Rate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Functionality_Of_Exit_Key"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GUI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#GameBryo"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Graphics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Havok"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Hero_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Input"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Libraries"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Main_Game_Engine_Program"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Middleware"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Networking"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Performance"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Physics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Post-Production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Pre-Production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Production_Pipeline"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Project_Anarchy"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#RAIN"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rapid2D"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recast"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Recognition"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Rendering_In_Game_Engine"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Restriction_Of_Animation_Updates"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Scripts"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Software_Requirement"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sound"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#SpeedTree"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#System"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Types"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Unity_4"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Windows"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Working"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#iOS"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#AiLive"/>
+        <Class IRI="#Middleware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Android"/>
+        <Class IRI="#Software_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#App_Game_Kit"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artificial_Intelligence_Implant"/>
+        <Class IRI="#Middleware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Artificial_Intelligence_In_Game_Engine"/>
+        <Class IRI="#Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audaspace"/>
+        <Class IRI="#Libraries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Audio_In_Game_Engine"/>
+        <Class IRI="#Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Autodesk_Gameware"/>
+        <Class IRI="#Middleware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Big_World"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#BlitzTech"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Bullet"/>
+        <Class IRI="#Libraries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Concept"/>
+        <Class IRI="#Production_Pipeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Cry_Engine_3"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Detour"/>
+        <Class IRI="#Libraries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Display_Lists"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Distinguish_Usefulness"/>
+        <Class IRI="#Business_Progress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Economy"/>
+        <Class IRI="#Business_Progress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Euphoria"/>
+        <Class IRI="#Middleware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Frame_Rate"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Functionality_Of_Exit_Key"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GUI"/>
+        <Class IRI="#Working"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#GameBryo"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Graphics"/>
+        <Class IRI="#Working"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Havok"/>
+        <Class IRI="#Middleware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Hero_Engine"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Input"/>
+        <Class IRI="#Working"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Main_Game_Engine_Program"/>
+        <Class IRI="#Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Networking"/>
+        <Class IRI="#Working"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Physics"/>
+        <Class IRI="#Working"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Post-Production"/>
+        <Class IRI="#Production_Pipeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Pre-Production"/>
+        <Class IRI="#Production_Pipeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Production"/>
+        <Class IRI="#Production_Pipeline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Project_Anarchy"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#RAIN"/>
+        <Class IRI="#Middleware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rapid2D"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recast"/>
+        <Class IRI="#Libraries"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Recognition"/>
+        <Class IRI="#Business_Progress"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Rendering_In_Game_Engine"/>
+        <Class IRI="#Components"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Restriction_Of_Animation_Updates"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Scripts"/>
+        <Class IRI="#Working"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sound"/>
+        <Class IRI="#Working"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#SpeedTree"/>
+        <Class IRI="#Middleware"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#System"/>
+        <Class IRI="#Performance"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Unity_4"/>
+        <Class IRI="#Types"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Windows"/>
+        <Class IRI="#Software_Requirement"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#iOS"/>
+        <Class IRI="#Software_Requirement"/>
+    </SubClassOf>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 3.4.2) http://owlapi.sourceforge.net -->
+
